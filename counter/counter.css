@@ -1,0 +1,38 @@
+.header{
+    text-align: center;
+}
+.grid_container{
+    height: 60vh;
+    margin: 5em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+.inputbox{
+   grid-column-start: 1;
+   grid-column-end: 4;
+   font-size: 2em;
+  
+}
+#value{
+   border: 1px solid black;
+   margin: 2vh 20vw;
+   
+}
+.reset_button{
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+.sayHI{
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+.button{
+   border-radius: 50%;
+   font-size: 2em;
+   padding: 10px 20px;
+}
+input{
+   padding: 10px;
+   font-size: 1.5em;
+}
